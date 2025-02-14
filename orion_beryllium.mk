@@ -9,6 +9,13 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+ORION_MAINTAINER := Rve
+ORION_MAINTAINER_LINK := https://t.me/rve270
+ORION_BUILD_TYPE := Official
+ORION_GAPPS := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
